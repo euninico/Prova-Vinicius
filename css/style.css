@@ -248,19 +248,26 @@ input {
   align-items: center;
   margin-right: 10px;
 }
+.btn-group{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  
+}
 
 .btn-group button {
-  margin-left: 12%;
+  margin-left: 5%;
   background-color: #04AA6D;
   border: 1px solid green;
   color: white;
   padding: 10px 24px;
   cursor: pointer;
-  width: 12vw;
-  display: block;
+  width: 90%;
   border-radius: 15px;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 .btn-group button:not(:last-child) {
@@ -268,7 +275,7 @@ input {
 }
 
 .btn-group button:hover {
-  background-color: #ffffff;
+  background-color: #ffffff75;
 }
 .button-logoff{
   display: flex;

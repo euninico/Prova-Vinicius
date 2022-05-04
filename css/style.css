@@ -211,25 +211,6 @@ table, th, td {
   background-image: linear-gradient(rgb(237, 237, 237),rgb(153, 152, 152));
 }
 
-.tytle1 {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  font-size: 25px;
-  margin-left: 27px;
-  margin-top: 1%;
-}
-
-.tytle2 {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  font-size: 25px;
-  margin-left: 27px;
-  margin-top: 1%;
-}
-
-
 .dashitens{
   display: flex;
   justify-content: center;
@@ -352,7 +333,7 @@ table, th, td {
   display: flex;
 }
 
-.headerAlunos{
+.headerDashboard{
   display: flex;
   position: relative;
   width: 100%;
@@ -360,7 +341,7 @@ table, th, td {
   font-size: 25px;  
   align-items: center;
 }
-.headerAlunosTitle{
+.headerDashboardTitle{
   display: flex;
   position: relative;
   flex-direction: row;

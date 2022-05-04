@@ -196,6 +196,15 @@ input {
   background-image: linear-gradient(rgb(237, 237, 237),rgb(153, 152, 152));
 }
 
+.curso {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 93vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(237, 237, 237),rgb(153, 152, 152));
+}
+
 .tytle1 {
   display: flex;
   position: relative;

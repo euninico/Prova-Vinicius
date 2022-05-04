@@ -220,6 +220,15 @@ table, th, td {
   margin-top: 1%;
 }
 
+.tytle2 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  font-size: 25px;
+  margin-left: 27px;
+  margin-top: 1%;
+}
+
 
 .dashitens{
   display: flex;
@@ -397,4 +406,23 @@ table, th, td {
   text-align: left;
   background-color: #04AA6D;
   color: white;
+
+}
+
+.label {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+.td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.tr:nth-child(even) {
+  background-color: #dddddd;
+  
 }

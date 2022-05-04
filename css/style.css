@@ -12,6 +12,11 @@ input {
  
 }
 
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
 ::placeholder {
   color: rgb(255, 255, 255);
   opacity: 0.7;
@@ -193,6 +198,7 @@ input {
   position: relative;
   height: 93vh;
   width: 100%;
+  align-items: center;
   background-image: linear-gradient(rgb(237, 237, 237),rgb(153, 152, 152));
 }
 
@@ -269,7 +275,6 @@ input {
   height: 10px; 
 }
 
-
 .profile{
   display: flex;
   position: relative;
@@ -336,4 +341,60 @@ input {
 
 .dropdown:hover .dropdown-content {
   display: flex;
+}
+
+.headerAlunos{
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: row;
+  font-size: 25px;  
+  align-items: center;
+}
+.headerAlunosTitle{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  font-size: 25px;  
+  align-items: center;
+  width: 100%;
+  margin-left: 100px;
+}
+.buttonCadastrar{
+  float: right;
+  margin-right: 100px;
+}
+.buttonCadatrarAlunos{
+  width: 150px;
+  background-color: #04AA6D;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.buttonCadatrarAlunos:hover{
+  background-color: #b9b9b9;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+#customers td, #customers th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover {background-color: #ddd;}
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }

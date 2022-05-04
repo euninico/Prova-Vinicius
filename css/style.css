@@ -214,6 +214,15 @@ input {
   margin-top: 1%;
 }
 
+.tytle2 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  font-size: 25px;
+  margin-left: 27px;
+  margin-top: 1%;
+}
+
 
 .dashitens{
   display: flex;

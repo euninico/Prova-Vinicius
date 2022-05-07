@@ -47,8 +47,31 @@
             <div class="headerDashboard">
               <h4 class="headerDashboardTitle">Alunos</h4>  
               <div class="buttonCadastrar">
-                <a href="./cadastroaluno.html"><button class="buttonCadatrarAlunos">Cadastrar</button></a>
+                <a><button id="buttonCadatrarAlunos" class="buttonCadatrarAlunos">Cadastrar</button></a>
               </div> 
+            </div>
+            <div id="cadastrarAlunos" class="cadastrarAlunos">
+              <div class="formCadastrarAlunos">
+                <div class="formCadastro">
+                  <div>
+                    <label style="font-size: 24px;" for="">Nome:</label>
+                    <input id="nameCadastro" class="buttonCadatrarAlunosForm" type="text">
+                  </div>
+                  <div>
+                    <label style="font-size: 24px;" for="">Email:</label>
+                    <input id="emailCadastro" class="buttonCadatrarAlunosForm" type="text">
+                  </div>
+                  <div>
+                    <label style="font-size: 24px;" for="">Telefone:</label>
+                    <input id="phoneCadastro" class="buttonCadatrarAlunosForm" type="text">
+                  </div>
+                  <div>
+                    <label style="font-size: 24px;" for="">Curso:</label>
+                    <input id="cursoCadastro" class="buttonCadatrarAlunosForm" type="text">
+                  </div>
+                  <button id="btnCadastrarAlunos">Cadastrar</button>
+                </div>
+              </div>
             </div>
             <table id="customers">
               <thead class="text-primary">
@@ -65,7 +88,7 @@
                   Curso
                 </th>
               </thead>
-              <tbody>
+              <tbody id="alunosRow">
                 <tr>
                   <td>
                     João
@@ -80,11 +103,13 @@
                     Redes de Computadores
                   </td>
                 </tr>
+                
               </tbody>
             </table>                
           </div>
         </div>
       </div>
     </div>
+    <script src="../js/main.js"></script>
   </body>
 </html>

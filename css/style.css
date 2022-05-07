@@ -350,6 +350,24 @@ table, th, td {
   width: 100%;
   margin-left: 100px;
 }
+.cadastrarAlunos{
+  display: none;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.formCadastrarAlunos{
+  display: flex;
+  position: relative;
+  width: 60%;
+  height: 70%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
 .buttonCadastrar{
   float: right;
   margin-right: 100px;
@@ -368,6 +386,17 @@ table, th, td {
 
 .buttonCadatrarAlunos:hover{
   background-color: #b9b9b9;
+}
+.buttonCadatrarAlunosForm{
+  width: 150px;
+  background-color: #858585;
+  border: 1px solid rgb(6, 6, 6);
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 15px;
+  margin-top: 10px;
 }
 
 #customers {
